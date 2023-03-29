@@ -3,12 +3,7 @@ package com.kumar.wipro.bofa.wipro;
 import java.util.HashMap;
 import java.util.Map;
 
-/*
- *  https://www.geeksforgeeks.org/hashmap-putifabsentkey-value-method-in-java-with-examples/
- *  https://www.geeksforgeeks.org/hashmap-computeifabsent-method-in-java-with-examples/
- *  https://stackoverflow.com/questions/48183999/what-is-the-difference-between-putifabsent-and-computeifabsent-in-java-8-map
- *
- * */
+
 public class MapMethods {
 
     public static void main(String[] args) {
@@ -114,21 +109,22 @@ public class MapMethods {
 
 /*
  * O/P =>
- * ---------------------putIfAbsentDemo----------------------
- * 200
- * null
- * null
- * null
- * hashMap = {key1=100, key2=200, key5=500, key3=300, key4=400}
- * ---------------------computeIfAbsentDemo----------------------
- * 200
- * 500
- * 1000
- * hashMap = {key1=100, key2=200, key5=500, key10=1000}
- * ---------------------putIfAbsentVsComputeIfAbsent----------------------
- * 500
- * 1000
- * null
- * null
- * hashMap = {key1=100, key2=200, key5=500, key3=300, key4=null, key10=1000}
+---------------------putIfAbsentDemo----------------------
+200
+null
+null
+null
+hashMap = {key1=100, key2=200, key5=500, key3=300, key4=400}
+---------------------computeIfAbsentDemo----------------------
+200
+500
+1000
+hashMap = {key1=100, key2=200, key5=500, key10=1000}
+---------------------putIfAbsentVsComputeIfAbsent----------------------
+500
+1000
+null
+null
+hashMap = {key1=100, key2=200, key5=500, key3=300, key4=null, key10=1000}
+
  * */
