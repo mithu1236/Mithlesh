@@ -27,7 +27,6 @@ class Solution {
 
         // If there are remaining elements in nums1, they are already in place
     }
-
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] nums1 = {1, 2, 3, 0, 0, 0};
